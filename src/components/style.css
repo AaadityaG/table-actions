@@ -1,0 +1,26 @@
+/* Add this to your CSS file */
+input[type="range"] {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 100%; /* Full width */
+    height: 4px; /* Bar height */
+    background: black; /* Black bar */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+    width: 14px; /* Width of the thumb */
+    height: 14px; /* Height of the thumb */
+    border-radius: 50%; /* Round shape */
+    background: white; /* White button */
+    border: 2px solid black; /* Black border */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 14px; /* Width of the thumb */
+    height: 14px; /* Height of the thumb */
+    border-radius: 50%; /* Round shape */
+    background: white; /* White button */
+    border: 2px solid black; /* Black border */
+  }
+  
