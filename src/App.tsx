@@ -1,4 +1,4 @@
-import TableComp from "./components/TableComp"
+import TableComp from "./components/Table3"
 
 function App() {
 
